@@ -6,3 +6,5 @@ __JavaScript__
 
 __Ruby__
 + changedFiles.rb - Script to Validate a file's integrity
++ encrypt.rb - Script to encrypt a file
++ decrypt.rb - Script to decrypt a file
