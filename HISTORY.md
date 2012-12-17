@@ -8,6 +8,8 @@ __2012-12-16__ Juan Gallardo <j@jgallardo.me> <br />
 + ruby/resizePhoto.rb : Finished tutorial on automating the resizing multiple images. 
 + ruby/hipster-coffeeshop/: Completed a tutorial on using the Refinery CMS. The actual course showed an example of a piano store, but I instead made a website for a coffee shop. I created the app from the terminal. After completing the website, I added files from Twitter Bootstrap for styling. I then copied over files into this folder because this is what is linked to the GitHub repo. 
 + javascript/contact-manager-js/ : Finished tutorial on how to build a contact manager with AngularJS
++ ruby/watermark.rb : Finished the tutorial on watermarking image files
++ ruby/bwPhoto.rb : Finished the tutorial on converting images to black and white
 
 
 __2012-12-14__ Juan Gallardo <j@jgallardo.me> <br />

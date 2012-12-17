@@ -1,10 +1,13 @@
 TABLE OF CONTENTS
 ==================
 
-__JavaScript__
+JavaScript
+------------------
+__Practice Projects__
 + Basic Contact Manager in Angular.js
 
-__Ruby__
+Ruby
+------------------
 Practice Projects<br />
 + hipster-coffeeshop - sample app built with Refinery CMS
 
@@ -34,3 +37,5 @@ Practice files<br />
 + imageInfo.rb - Script to extract information from an image file
 + thumbnail.rb - Script to create thumbnails from images 
 + resizePhoto.rb - Script to resize images
++ watermark.rb - Script to watermark images
++ bwPhoto.rb - Script converts images to black and white
