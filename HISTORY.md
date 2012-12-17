@@ -1,6 +1,9 @@
 HISTORY
 ==================
 
+__2012-12-17__ Juan Gallardo <j@jgallardo.me> <br />
++ phonegap/alienhunter : Began the tutorial. Finished part 1 of 5 on building a Phone Gap application.
+
 __2012-12-16__ Juan Gallardo <j@jgallardo.me> <br />
 + ruby/massEdit.rb : Finished the tutorial on renaming files with this Script.
 + ruby/imageInfo.rb : Finished the tutorial on extracting information from pictures with this script.
