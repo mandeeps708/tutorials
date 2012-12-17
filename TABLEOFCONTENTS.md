@@ -8,10 +8,10 @@ __Practice Projects__
 
 Ruby
 ------------------
-Practice Projects<br />
+__Practice Projects__
 + hipster-coffeeshop - sample app built with Refinery CMS
 
-Practice files<br />
+__Practice files__
 + changedFiles.rb - Script to Validate a file's integrity
 + encrypt.rb - Script to encrypt a file
 + decrypt.rb - Script to decrypt a file
@@ -39,3 +39,8 @@ Practice files<br />
 + resizePhoto.rb - Script to resize images
 + watermark.rb - Script to watermark images
 + bwPhoto.rb - Script converts images to black and white
+
+PhoneGap
+------------------
+__Practice Projects__
++ alienhunter -
