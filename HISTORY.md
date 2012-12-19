@@ -1,8 +1,15 @@
 HISTORY
 ==================
 
+__2012-12-18__ Juan Gallardo <j@jgallardo.me> <br />
++ phonegap/determining-whether-the-device-is-ready : Finished the tutorial 
++ phonegap/retrieve.js : Finished tutorial on writing a JavaScript file that enables you to add functionality that is available only on a certain device or platform. 
+
+__2012-12-18__ Juan Gallardo <j@jgallardo.me> <br />
++ phonegap-determining-whether-the-device-is-ready : Started the file
+
 __2012-12-17__ Juan Gallardo <j@jgallardo.me> <br />
-+ phonegap/alienhunter : Began the tutorial. Finished part 1 of 5 on building a Phone Gap application.
++ phonegap/alienhunter : Began the tutorial. Finished part 1 of 5 on building a Phone Gap application. Still in progress due to inconsistent instructions that conflict the current version of PhoneGap. 
 
 __2012-12-16__ Juan Gallardo <j@jgallardo.me> <br />
 + ruby/massEdit.rb : Finished the tutorial on renaming files with this Script.

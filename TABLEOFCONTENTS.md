@@ -6,6 +6,13 @@ JavaScript
 __Practice Projects__
 + Basic Contact Manager in Angular.js
 
+PhoneGap
+------------------
+__Practice Projects__
++ phonegap/determining-whether-the-device-is-ready - Sample PhoneGap (now Cordova) project that sets a global variable called isPhoneGapReady in order to make PhoneGap-specific API calls.
++ phonegap/retrieve.js - JavaScript file to retrieve device information if you want to add functionality that is available only on a certain device platform. 
++ alienhunter (tutorial in progress)
+
 Ruby
 ------------------
 __Practice Projects__
@@ -40,7 +47,3 @@ __Practice files__
 + watermark.rb - Script to watermark images
 + bwPhoto.rb - Script converts images to black and white
 
-PhoneGap
-------------------
-__Practice Projects__
-+ alienhunter -
