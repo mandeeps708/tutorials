@@ -1,7 +1,0 @@
-//
-// Prefix header for all source files of the 'persistent-navigation-system' target in the 'persistent-navigation-system' project
-//
-
-#ifdef __OBJC__
-	#import <UIKit/UIKit.h>
-#endif
