@@ -10808,3 +10808,12 @@ Served asset /refinery/logo-site-bar.png - 304 Not Modified (0ms)
 
 Started GET "/assets/refinery/orange_button.png" for 127.0.0.1 at 2012-12-16 15:12:48 -0800
 Served asset /refinery/orange_button.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (19.4ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateRefinerycmsAuthenticationSchema (20121216063618)
+Migrating to CreateRefinerycmsImagesSchema (20121216063619)
+Migrating to CreateRefinerycmsResourcesSchema (20121216063620)
+Migrating to CreateRefinerycmsPagesSchema (20121216063621)
+Migrating to CreateSeoMeta (20121216063622)
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m

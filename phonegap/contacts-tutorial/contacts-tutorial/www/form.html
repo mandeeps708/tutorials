@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>PhoneGap/cordova</title>
+</head>
+<body>
+<div data-role="page" id="form-page">
+	<div data-role="header" data-position="inline">
+		<a href="contacts.html" data-icon="delete">
+Cancel</a>
+		<h1>Add Contact</h1>
+		<a onClick="return saveContact()" href="#" 
+data-icon="check" data-theme="b">Save</a>
+	</div> <!-- end of header -->
+	<form action="form.html" method="post">
+	<input type="hidden" name="id" value="0" />
+	<table>
+		<tr>
+			<td>Display Name</td>
+			<td><input type="text" name="displayName"
+	value="" /></td>
+		</tr>
+		<tr>
+			<td>First Name</td>
+			<td<input type="text" name="firstName"
+	value="" /></td>
+		</tr>
+		<tr>
+			<td>Last Name</td>
+			<td<input type="text" name="lastName"
+	value="" /></td>
+		</tr>
+		<tr>
+			<td>Email (home)</td>
+			<td<input type="text" name="email_home"
+	value="" /></td>
+		</tr>
+		<tr>
+			<td>Email (work)</td>
+			<td<input type="text" name="email_work"
+	value="" /></td>
+		</tr>
+		<tr>
+			<td>Email (other)</td>
+			<td<input type="text" name="email_other"
+	value="" /></td>
+		</tr>
+		<tr>
+			<td>Phone (home)</td>
+			<td<input type="text" name="phone_home"
+	value="" /></td>
+		</tr>
+		<tr>
+			<td>Phone (work)</td>
+			<td<input type="text" name="phone_home"
+	value="" /></td>
+		</tr>
+		<tr>
+			<td>Phone (other)</td>
+			<td<input type="text" name="phone_other"
+	value="" /></td>
+		</tr>
+	</table>
+	</form>
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="index.html" >Home</a></li>
+				<li><a href="map.html">Map</a></li>
+				<li><a href="list.html">List</a></li>			
+				<li><a href="contacts.html" class="ui-btn-active">Contacts</a></li>
+			</ul>
+		</div>	<!-- end of navbar -->
+	</div> <!-- end of footer -->
+	<script type="text/javascript" charset="utf-8"
+src="scripts/contacts.js"></script>
+</div> <!-- end of page -->
+</body>
+</html>

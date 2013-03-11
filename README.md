@@ -2,14 +2,23 @@ OVERVIEW
 ------------------
 Collection of tutorials that I have completed just for my own training purposes. 
 
+PURPOSE
+------------------
+Made to practice programming concepts. Various tutorials were completed to solicit further feedback from code reviews. 
 
-CONTRIBUTORS
+SUBJECTS COVERED
+------------------
+* JavaScript
+* Ruby
+
+CONTRIBUTOR
 ------------------
 Juan Gallardo j@jgallardo.me
 
 
 ATTRIBUTION
 ------------------
+The following books, magazines, and websites were used to complete tutorials listed here:
 
 __JavaScript__
 + Ford, B. (November 2012). /JavaScript/Write an app in AngularJS. .net. Issue 234. Pg. 106 - 109.

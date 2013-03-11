@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>PhoneGap/cordova</title>	
+</head>
+<body>
+	<div data-role="page" id="accelerometer-page">
+		<div data-role="header" data-position="inline">
+			<h1>Bouncing Ball</h1>
+		</div> <!-- end of header -->	
+
+		<canvas id="canvas" width="350" height="350" style="border: 2px solid #000"></canvas>
+		<img id="ball" style="display:none" />
+
+
+
+	</div> <!-- end of page with accelerometer -->
+
+	<div data-role="footer" data-position="fixed">
+		<div data-role="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="map.html">Map</a></li>
+				<li><a href="compass.html">Compass</a></li>
+				<li><a href="accelerometer.html" class="ui-btn-active">Accelerometer</a></li>				
+			</ul>
+		</div> <!-- end of navbar-->	
+	</div> <!-- end of footer -->
+
+	<script type="text/javascript" charset="utf-8"
+		src="scripts/accelerometer.js"></script>	
+</body>
+</html>

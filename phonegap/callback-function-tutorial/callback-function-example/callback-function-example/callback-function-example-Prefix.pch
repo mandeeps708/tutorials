@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'callback-function-example' target in the 'callback-function-example' project
+//
+
+#ifdef __OBJC__
+	#import <UIKit/UIKit.h>
+#endif
