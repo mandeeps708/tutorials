@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Getting Centered</title>
+	<script language = "JavaScript">
+	<!-- hide me from older browsers
+	function openAndCenterWindow()
+	{
+		if ((parseInt(navigator.appVersion) > 3) && (navigator.appName == "Netscape")) {
+			var the_window =
+				window.open('http://www.nostarch.com/','the_window','height=200, width=200');
+
+			var screen_height = window.screen.availHeight;
+			var screen_width = window.screen.availWidth;
+			var left_point = parseInt(screen_width / 2) - 100;
+			var top_point = parseInt(screen_height / 2) - 100;
+			the_window.moveTo(left_point, top_point);	
+		}
+	}
+	//show me -->
+	</script>
+</head>
+<body>
+	<a href="#" onClick="openAndCenterWindow(); return false;">click on me to open a small centered window</a>
+</body>
+</html>

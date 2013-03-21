@@ -1,0 +1,21 @@
+<html>
+<head>
+	<title>Preloaded Rollover</title>
+
+	<script>
+	<!-- hide me from old browsers
+		var some_image = new_image(); 
+		some_image.src = "happy_face.gif";
+	// end hide -->
+	</script>
+</head>
+<body>
+
+<a href="#"
+	onMouseOver="window.document.my_first_image.src='happy_face.gif';"
+	onMouseOut="window.document.my_first_image.src='sad_face.gif';"
+	onClick="return false;">
+	<img src="sad_face.gif" name="my_first_image" border="0">
+</a>
+</body>
+</html>

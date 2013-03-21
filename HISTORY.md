@@ -1,6 +1,40 @@
 HISTORY
 ==================
 
+__2013-20-03__ Juan Gallardo <j@jgallardo.me> <br />
++ JavaScript/lessons-from_the-book-of-javascript/quiz.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/simple_calculator2.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/simple_calculator.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/values_inside_radio_buttons.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/form_with_names.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/textarea.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/pull-down_menu.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/dog_guestions.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/basic_form.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/abbreviated_listing.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/center_window.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/controlled_window.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/date_printer.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/get_date.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/getting_centered_functionality.html : Finished tutorial  
++ JavaScript/lessons-from_the-book-of-javascript/getting_centered.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/square_window.html.com : Finished tutorial 
+
+__2013-19-03__ Juan Gallardo <j@jgallardo.me> <br />
++ JavaScript/lessons-from_the-book-of-javascript/alert1.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/alert2.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/browswer_version.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/greetings.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/my_first_program.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/prompt1.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/seconds_per_day.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/strings.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/the_remote.html : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/simple-rollover : Added the finished project
++ JavaScript/lessons-from_the-book-of-javascript/preloaded-rollover : Added the finished project 
++ JavaScript/lessons-from_the-book-of-javascript/image-swap : Added the finished project
++ JavaScript/lessons-from_the-book-of-javascript : Added the folder to store the exercise files that I will create as I go through the book.
+
 __2013-09-01__ Juan Gallardo <j@jgallardo.me> <br />
 + phonegap/contacts-tutorial/ .... / : Added photos.html and photos.js which together allow you to upload an image from the device or take and store a picture.
 

@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>A Quiz</title>
+	<script language="JavaScript">
+		<!-- hide me from old browsers
+		function scroreQuiz()
+		{
+		var correct = 0;
+			if (window.document.the_form.question1.checked == true) {
+				correct = correct + 1;
+			}
+			if (window.document.the_form.question2.checked == true) {
+				correct = correct + 1;
+			}
+			if (window.document.the_form.question3.checked == true) {
+				correct = correct + 1;
+			}
+			alert("you got " + correct + " answers right!");
+		}
+		// end hiding -->
+	</script>
+</head>
+<body>
+	<h1>A Little Quiz</h1>
+	Check the statements that are true:
+	<form>
+		<input type="checkbox" name="question1"> All men are featherless bipeds
+		<input type="checkbox" name="question2"> All kangaroos are featherless bipeds
+		<input type="checkbox" name="question3"> All men are kangarooos
+		<input type="button" value="score this quiz" onClick="scoreQuiz();">
+	</form>
+</body>
+</html> 

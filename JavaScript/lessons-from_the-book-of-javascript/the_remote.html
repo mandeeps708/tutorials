@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Remote Control</title>
+	<script language = "JavaScript">
+	<!-- hide me from older browsers
+
+	var can_focus = false;
+
+	var version = parseInt(navigator.appVersion);
+	var app_name = navigator.appName;
+
+	if ((app_name == "Netscape") && (version > 2))
+	{
+		can_focus = true;
+ 	}
+	else if ((app_name == "Microsoft Internet Explorer") && (version > 3))
+	{
+		can_focus = true;
+	}
+	//show me -->
+	</script>
+</head>
+<body>
+
+	<a href="#" onclick="window.opener.location='http://www.nytimes.com/';
+		if (can_focus) {window.focus();}">NY Times</a><br>
+
+	<a href="#" onclick="window.opener.location='http://www.webmonkey.com/';
+		if (can_focus) {window.focus();}">Webmonkey</a><br>
+
+	<a href="#" onclick="window.opener.location='http://www.salon.com/';
+		if (can_focus) {window.focus();}">Salon</a><br>
+</body>
+</html>

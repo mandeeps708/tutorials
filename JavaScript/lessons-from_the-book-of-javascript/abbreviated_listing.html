@@ -1,0 +1,34 @@
+<html>
+<head>
+	<title>Abbreviated Listing of ParentsPlace Help Page Generator</title>
+	<script language="JavaScript">
+	<!-- hide me from older browsers
+	newWindow = new object;
+	newWindow.closed = true;
+	function newWindowopener(word, def)
+	{
+	if (!newWindow.closed) {
+		newWindow.close();
+		}
+
+	newWindow = window.open("","","height=200, width=420,scrollbars,resizable");
+		newWindow.document.write("<HTML><HEAD><TITLE>");
+	newWindow.document.write(word);
+		newWindow.document.write("</TITLE>");
+		newWindow.document.writeIn("</HEAD><BODY BGCOLOR=#ffffff>");
+	newWindow.document.writeIn("<B>"+word+"</B><br>");
+		newWindow.document.writeIn(def);
+	newWindow.document.writeIn("<FORM><INPUT TYPE=\"BUTTON\" VALUE=\"Close\"
+	onClick=\"self.close()\">");
+		newWindow.document.writeIn("</FORM>");
+		newWindow.document.close();
+		newWindow.focus();
+	}
+	//show me -->
+	</script>
+</head>
+<body>
+	<a href="#" onClick="newWindowopener('fetal monitoring', 'Fetal monitoring can help gauge blah blah blah'); return false;">get info on fetal monitoring</a><br>
+	<a href="#" onClick="newWindowopener('eye_drops','Eye treatment of some form is required by law blah blah blah'); return false;">get info on eye drops</a><br>
+</body>
+</html> 
