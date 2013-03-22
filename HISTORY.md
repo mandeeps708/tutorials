@@ -2,6 +2,7 @@ HISTORY
 ==================
 
 __2013-22-03__ Juan Gallardo <j@jgallardo.me> <br />
++ JavaScript/lessons-from_the-book-of-javascript/hierarchical-menus : Finished tutorial 
 + JavaScript/lessons-from_the-book-of-javascript/div_wandering.html : Correction on button from "stop watching" to "stop wandering."
 
 __2013-21-03__ Juan Gallardo <j@jgallardo.me> <br />

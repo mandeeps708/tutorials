@@ -1,0 +1,74 @@
+<html>
+<head>
+	<script language="JavaScript">
+	<!-- 
+	var div_array = new Array("divOne", "divTwo", "divThree");
+	function changeDiv(the_div, the_change)
+	{
+		if (document.all)
+		{
+			div_string = "window.document.all" + the_div + ".style";
+		} else if (document.layers) {
+			div_string = "window.document." + the_number;
+		} else {
+			alert("sorry, this only works in 4.0 browsers");
+			return;
+		}
+		the_div = eval(div_string);
+		the_div.visibility = the_change;
+	}
+	function closeAll()
+	{
+		for (var loop=0; loop < div_array.length; loop++) 
+		{
+			changeDiv(div_array[loop], "hidden");
+		}
+	}
+	// -->
+	</script>
+</head>
+<body>
+	<div id="top_border" style="position:absolute; top:0; left:5;">
+		<a href="#" onMouseOver="closeAll();"><img src="long_spacer.gif border=0"></a>
+	</div>
+
+	<div id="top1" style="position:absolute; top:20; left:5; z-index:1">
+		<a href="#" onMouseOver="closeAll(); changeDiv('divOne','visible');">Dogs</a>
+	</div>
+
+	<div id="top2" style="position:absolute; top:40; left:5; z-index:1">
+		<a href="#" onMouseOver="closeAll(); changeDiv('divTwo','visible');">Cats</a>
+	</div>
+
+	<div id="top3" style="position:absolute; top:20; left:5; z-index:1">
+		<a href="#" onMouseOver="closeAll(); changeDiv('divThree','visible');">Birds</a>
+	</div>
+
+
+	<div id="bottomBorder" style="position:absolute; top: 80; left:5;">
+		<a href="#" onMouseOver="closeAll();"><img src="long_spacer.gif"border=0></a>
+	</div>
+
+	<div id="rightBorder" style="position:absolute; top: 5; left:150;">
+		<a href="#" onMouseOver="closeAll();"><img src="tall_spacer.gif"border=0></a>
+	</div>
+
+	<div id="divOne" style="position:absolute; top:20; left:80 visibility:hidden;">
+		<a href="#">Collie</a><br>
+		<a href="#">Puli</a><br>
+		<a href="#">Corgie</a><br>
+	</div>
+
+	<div id="divTwo" style="position:absolute; top:40; left:80 visibility:hidden;">
+		<a href="#">Siamese</a><br>
+		<a href="#">Manx</a><br>
+		<a href="#">Calico</a><br>
+	</div>
+
+	<div id="divThree" style="position:absolute; top:60; left:80 visibility:hidden;">
+		<a href="#">Parakeet</a><br>
+		<a href="#">Finch</a><br>
+		<a href="#">Canary</a><br>
+	</div>
+</body>
+</html>

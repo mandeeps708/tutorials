@@ -6,15 +6,83 @@
 		function startRace()
 		{
 			window.document.the_form.winner.value = "AND THEY ARE OFF!";
-			moveNumber('numbe')
+			moveNumber('numberOne');
+			moveNumber('numberTwo');
+			moveNumber('numberThree');
+		}
+		function stopRace()
+		{
+			clearTimeout(the_timers['numberOne']);
+			clearTimeout(the_timers['numberTwo']);
+			clearTimeout(the_timers['numberThree']);
+		}
+		function moveNumber(the_number)
+		{
+			var the_div, div_string, time_out_string;
+			var loop_speed = 100 // how fast the numbers move
+			var distance = 10; // how far the numbers move
+			var finish_line = 400; // where the race ends
+			if (document.all)
+			{
+				the_div_name = "document.all.divOne.style";
+				the_div = eval(the_div_name);
+			} else if {
+				div_string = "window.document." + the_number;
+				the_div = eval(div_string);
+			} else {
+				alert("sorry, this only works in 4.0 browsers");
+				return;
+			}
+			the_div.left = parseInt(the_div.left) + Math.floor(Math.random()*distance);
+			if (parseInt(the_div.left) > finish_line)
+			{
+				(window.document.the_form.winner.value.indexOf("WINNER") == -1) {
+					window.document.the_form.winner.value = "THE WINNER IS: " + the_number + " !!!";
+					window.document.the_form.winner.value += " (reload the page for a new race).";
+					stopRace();
+				}
+			} else {
+				time_out_string = "moveNumber('" + the_number + "' );";
+				the_timers[the_number] = setTimeout(time_out_string, loop_speed);
+			}
 		}
 		// -->
 	</script>
 </head>
-
-
-
 <body>
+	<h1>Numbers Race</h1>
+	<form name="the_form">
+		<input type="text" name="winner" size="60" value="">
+	</form>
+	<p>
+	<div id="numberOne" style="position:absolute; top:150; left:100;">
+		<img src="one.jpg">
+	</div>
+	<div id="numberTwo" style="position:absolute; top:200; left:100;">
+		<img src="two.jpg">
+	</div>
+	<div id="numberThree" style="position:absolute; top:250; left:100;">
+		<img src="three.jpg">
+	</div>
+	<br>
+	<a href="#" onClick="startRace(); return false;">Start the race</a>
+	<br>
+	<a href="#" onClick="stopRace(); return false">Stop the race</a>
+	<p>
 </body>
-
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
