@@ -1,6 +1,9 @@
 HISTORY
 ==================
 
+__2013-22-03__ Juan Gallardo <j@jgallardo.me> <br />
++ JavaScript/lessons-from_the-book-of-javascript/div_wandering.html : Correction on button from "stop watching" to "stop wandering."
+
 __2013-21-03__ Juan Gallardo <j@jgallardo.me> <br />
 + JavaScript/lessons-from_the-book-of-javascript/time-alert.html : Finished tutorial 
 + JavaScript/lessons-from_the-book-of-javascript/strobe.html : Finished tutorial 
@@ -15,7 +18,7 @@ __2013-21-03__ Juan Gallardo <j@jgallardo.me> <br />
 + JavaScript/lessons-from_the-book-of-javascript/check_four.html : Finished tutorial 
 + JavaScript/lessons-from_the-book-of-javascript/answer.html : Finished tutorial 
 + JavaScript/lessons-from_the-book-of-javascript/riddle : Finished tutorial 
-+ JavaScript/lessons-from_the-book-of-javascript/numbers-race : Finished tutorial 
++ JavaScript/lessons-from_the-book-of-javascript/numbers-race : Began tutorial 
 + JavaScript/lessons-from_the-book-of-javascript/layering-divs : Finished tutorial 
 + JavaScript/lessons-from_the-book-of-javascript/slide-show : Finished tutorial 
 + JavaScript/lessons-from_the-book-of-javascript/phone-numbers : Added this file as a practice of the lessons learned in the lesson on phonebook.html in chapter 7. Linked an external JavaScript file, added new content. 
