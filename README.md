@@ -22,6 +22,7 @@ The following books, magazines, and websites were used to complete tutorials lis
 
 __JavaScript__
 + Ford, B. (November 2012). /JavaScript/Write an app in AngularJS. .net. Issue 234. Pg. 106 - 109.
++ Thau, D. (2000). The Book of JavaScript. San Francisco: No Starch Press. 
 
 __PhoneGap__ 
 + "PhoneGap From Scratch: Introduction"<br />
