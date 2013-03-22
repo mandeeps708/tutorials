@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Cross-Browser Div Moving</title>
+
+	<script language="JavaScript">
+		<!-- 
+		var the_timeout;
+		function moveNumber()
+		{
+			var the_div, move_amount;
+			if (window.document.all)
+			{
+				the_div = window.document.all.numberOne.style;
+			} else if (document.layers) {
+				the_div = window.document.numberOne;
+			} else {
+				alert("Sorry, this only works in 4.0 browsers");
+				return;
+			}
+			move_amount = Math.floor(Math.random() * 10);
+			if (Math.floor(Math.random()*10) < 5) {
+				the_div.left = parseInt(the_div.left) + move_amount;
+			} else {
+				the_div.left = parseInt(the_div.left) - move_amount;
+			}
+			random_number = Math.floor(Math.random() * 10);
+			if (Math.floor(Math.random() *10) < 5)
+			{
+				the_div.top = parseInt(the_div.top) + move_amount; 
+			} else {
+				the_div.top = parseInt(the_div.top) - move_amount;
+			}
+			the_timeout = setTimeout("moveNumber();" 100);
+ 		}
+		// -->
+	</script>
+</head>
+<body>
+	<h1>The Wandering One</h1>
+	<div id="numberOne" style="position:absolute; top:150; left:100; z-index:-1">
+		<img src="one.jpg">
+	</div>	
+	<br>
+	<a href="#" onClick="the_timeout=setTimeout('moveNumber();',100); return false;">start wandering</a><br>
+	<a href="#" onClick="clearTimeout(the_timeout); return false;">stop watching</a>
+</body>
+</html>

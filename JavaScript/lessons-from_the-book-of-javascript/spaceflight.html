@@ -1,0 +1,26 @@
+<html>
+<head>
+	<title>NASA Human Spaceflight</title>
+</head>
+<body>
+	<form name="timeForm">
+		Space Station </a><br>
+		<input type="text" name="stationTime" size="18" value="000:00:00:00">
+		<script language="JavaScript">
+			function setNewTimeAgain() {
+				setNewTimeAgain();
+			}
+			function setNewTime() {
+				now = new Date();
+				timeNow = now.getTime();
+				launch = Date.parse("Fri, 20 Nov 1998 00:20:00 CST");
+				timeLeft = timeNow - launch;
+				document.timeForm.stationTime.value = timeLeft;
+				setTimeout("setNewTimeAgain()", 950);
+				return;
+			}
+			setNewTime();
+		</script>
+	<form>
+</body>
+</html>

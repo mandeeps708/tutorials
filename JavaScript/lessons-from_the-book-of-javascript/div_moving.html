@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>Cross-Browser Div Moving</title>
+
+
+	<script language="JavaScript">
+		<!-- 
+		function moveDiv()
+		{
+			var the_div;
+			if (window.document.all)
+			{
+				the_div = window.document.all.myFirstDiv.style;
+			} else if (document.layers) {
+				the_div = window.document.myFirstDiv;
+			} else {
+				alert("sorry, this only works in 4.0 browsers");
+				return;
+			}
+			the_div.left = parseInt(the_div.left) + 100;
+		}
+		// -->
+	</script>
+</head>
+<body>
+	<h1>Moving the Div</h1>
+	This text is not inside a div.
+	<p>
+	<div id="myFirstDiv" style="position:absolute; top:150; left: 100;">
+		But this is.<br>
+		And so is this text.<br>
+	</div>
+	<p>
+	But this text is not. 
+	<br>
+	<a href="#" onClick="moveDiv(); return false;">move the div</a>	
+</body>
+</html>

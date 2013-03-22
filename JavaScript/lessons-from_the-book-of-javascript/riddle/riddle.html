@@ -1,0 +1,32 @@
+<html>
+<head>
+	<title>A Riddle Game</title>
+	<script language="JavaScript">
+		<!-- Hide me 
+		var my_timeout = setTimeout("goToAnswerPage();", 10000);
+		function goToAnswerPage()
+		{
+			alert("Sorry!");
+			window.location = "answer.html";
+		}
+
+		function checkAnswer(the_answer, the_timeout)
+		{
+			if (the_answer == "a newspaper")
+			{
+				clearTimeout(the_timeout);
+				alert("Congratulations! You got it right!");
+			}
+		}
+		// show me -->
+	</script>
+</head>
+<body>
+	<h1>Riddle Me This</h1>
+	What is black, white, and read all over?<br>
+	<form onSubmit="checkAnswer(this.the_answer.value, my_timeout); return false;">
+		<input type="text" name="the_answer">
+		<input type="submit" value="answer">
+	</form>
+</body>
+</html>

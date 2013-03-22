@@ -1,0 +1,30 @@
+<html>
+<head>
+	<title>Phone Listing</title>
+	<script type="text/javascript" src="phone-list.js"></script>
+</head>
+<body>
+	<h1>Benco Dental Dealerships</h1>
+	<form name="the_form">
+		<b>Dealerships :</b>
+		<select onChange="displayNumber(phone_book, this.options[this.selectedIndex].value);">
+			<option value="AL, Mobile">AL, Mobile
+			<option value="AL, Pelham">AL, Pelham
+			<option value="AZ, Tempe">AZ, Tempe
+			<option value="AZ, Tucson">AZ, Tucson
+			<option value="CA, Bakersfield">CA, Bakersfield
+			<option value="CA, Costa Mesa">CA, Costa Mesa
+			<option value="CA, Fresno">CA, Fresno
+			<option value="CA, Los Angeles">CA, Los Angeles
+			<option value="CO, Denver">CO, Denver
+			<option value="CT, Hartford">CT, Hartford
+			<option value="FL, Fort Lauderdale">FL, Fort Lauderdale
+			<option value="Fl, Tampa">Fl, Tampa
+			<option value="GA, Atlanta">GA, Atlanta
+		</select>
+		<p>
+		<b>Number:</b>
+		<input type="text" name="number_box" value="">
+	</form>
+</body>
+</html>

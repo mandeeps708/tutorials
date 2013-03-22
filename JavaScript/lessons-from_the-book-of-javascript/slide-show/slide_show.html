@@ -1,0 +1,38 @@
+<html>
+<head>
+	<title>A Timed Slide Show</title>
+	<script language="JavaScript">
+		<!-- hide me
+		var the_images = new Array();
+		the_images[0] = new Image();
+		the_images[0].src = "one.jpg";
+
+		the_images[1] = new Image();
+		the_images[1].src = "two.jpg";
+
+		the_images[2] = new Image();
+		the_images[2].src = "three.jpg";
+		var the_timeout;
+
+		function rotateImage(index)
+		{
+			window.document.my_image.src = the_images[index].src;
+			index++;
+			if (index >= the_images.length)
+			{
+				index = 0;
+			}
+			var the_function_string = "rotateImage(" + index + ");";
+			the_timeout = setTimeout(the_function_string, 1000);
+		}
+		-->
+	</script>
+</head>
+<body>
+	<img name="my_image" src="one.jpg">
+	<form>
+		<input type="button" value="start the show" onClick="rotateImage(0);">
+		<input type="button" value="stop the show" onClick="clearTimeout(the_timeout);">
+	</form>
+</body>
+</html>

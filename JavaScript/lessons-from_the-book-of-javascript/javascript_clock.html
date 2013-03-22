@@ -1,0 +1,42 @@
+<html>
+<head>
+	<title>A Simple Timing Loop</title>
+	<script language="JavaScript">
+		<!-- Hide me 
+		var the_timeout;
+		function writeTime () {
+			// get a date object
+			var today = new Date();
+			// ask the object for some information
+			var hours = today.getHours();
+			var minutes = today.getMinutes();
+			var seconds = today.getSeconds();
+			// make minutes and seconds look right
+			minutes = fixTime(minutes);
+			seconds = fixTime(seconds);
+			//put together the time and string and write it out
+			var the_time = hours + ":" + minutes + ":" + seconds;
+			window.document.the_form.the_text.value = the_time;
+			// run this function again in a second
+			the_timeout = setTimeout('writeTime();',1000);
+		}
+
+		function fixTime(the_time) {
+			if (the_time < 10)
+			{
+				the_time = "0" + the_time;
+			}
+			return the_time;
+		}
+		// show me -->
+	</script>
+</head>
+<body>
+	The time is now:
+	<form name="the_form">
+		<input type="text" name="the_text">
+		<input type="button" value="start the clock" onClick="writeTime();">
+		<input type="button" value="stop the clock" onClick="clearTimeout(the_timeout);">
+	</form>
+</body>
+</html>
