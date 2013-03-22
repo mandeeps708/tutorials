@@ -2,6 +2,7 @@ HISTORY
 ==================
 
 __2013-22-03__ Juan Gallardo <j@jgallardo.me> <br />
++ JavaScript/lessons-from_the-book-of-javascript/node.js-for-beginners : Added the folder of practice files within the tutorial. 
 + JavaScript/lessons-from_the-book-of-javascript/hierarchical-menus : Finished tutorial 
 + JavaScript/lessons-from_the-book-of-javascript/div_wandering.html : Correction on button from "stop watching" to "stop wandering."
 

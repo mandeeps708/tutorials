@@ -21,6 +21,8 @@ ATTRIBUTION
 The following books, magazines, and websites were used to complete tutorials listed here:
 
 __JavaScript__
++ "Node.js for Beginners"<br />
+Viewed March. 22, 2013 from http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/
 + Ford, B. (November 2012). /JavaScript/Write an app in AngularJS. .net. Issue 234. Pg. 106 - 109.
 + Thau, D. (2000). The Book of JavaScript. San Francisco: No Starch Press. 
 
