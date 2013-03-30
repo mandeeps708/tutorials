@@ -5,7 +5,11 @@ JavaScript
 ------------------
 __Practice Projects__
 + Basic Contact Manager in Angular.js
+
+__Practice files__
 + lessons-from_the-book-of-javascript
++ lessons-from_applied-jquery
++ lessons-from_jquery-mobile
 
 PhoneGap
 ------------------

@@ -1,6 +1,12 @@
 HISTORY
 ==================
 
+__2013-29-03__ Juan Gallardo <j@jgallardo.me> <br />
+Read the entire book Applied jQuery but I was familiar with the concepts, so I only followed along to the tutorials listed below. 
++ JavaScript/lessons-from_applied-jquery/hello-santa-monica.html : Finished the tutorial for hello, world but I changed it to "Hello, Santa Monica!"
++ JavaScript/lessons-from_applied-jquery/4-7.php : Finished the tutorial 
++ JavaScript/lessons-from_applied-jquery/spritenav.js : Finished the tutorial
+
 __2013-22-03__ Juan Gallardo <j@jgallardo.me> <br />
 + JavaScript/lessons-from_the-book-of-javascript/node.js-for-beginners : Added the folder of practice files within the tutorial. 
 + JavaScript/lessons-from_the-book-of-javascript/hierarchical-menus : Finished tutorial 

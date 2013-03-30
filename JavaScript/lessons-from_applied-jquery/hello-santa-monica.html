@@ -1,0 +1,26 @@
+<!DOCTYPE>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Hello Santa Monica - jQuery style</title>
+	<script type="text/javascript" src="jq/jquery-1.9.1.min.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/* write 'Hello Santa Monica! to the first div */
+			$('#first').html('<h1>Hello Santa Monica!</h1>');
+
+			/* a clickable 'Hello Santa Monica!' example */
+			$('#link').click(function(){
+				$('#greeting').html('<h1>Whats up bro</h1>');
+			});
+		});
+	</script>
+</head>
+<body>	
+	<div id="first"></div>
+	<div id="second"></div>
+	<a href="#" id="link">Click Me!</a><br />
+	<span id="greeting"></span>
+</body>
+</html>

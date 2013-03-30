@@ -24,6 +24,8 @@ __JavaScript__
 + "Node.js for Beginners"<br />
 Viewed March. 22, 2013 from http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/
 + Ford, B. (November 2012). /JavaScript/Write an app in AngularJS. .net. Issue 234. Pg. 106 - 109.
++ Blanchard, J. (2012). Applied jQuery: Develop and Design. Berkeley: Peachpit Press.
++ Firtman, M. (2012). jQuery Mobile: Up and Running. Sebastopol: O'Reilly.
 + Thau, D. (2000). The Book of JavaScript. San Francisco: No Starch Press. 
 
 __PhoneGap__ 
