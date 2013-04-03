@@ -1,6 +1,22 @@
 HISTORY
 ==================
 
+__2013-30-03__ Juan Gallardo <j@jgallardo.me> <br />
+Began to code along through the book on jQuery mobile. 
++ JavaScript/lessons-from_jquery-mobile/template.html: Created this very basic template.
++ JavaScript/lessons-from_jquery-mobile/page-template.html : Created this basic template that includes a header and footer. 
++ JavaScript/lessons-from_jquery-mobile/dialogs/ : Began tutorial the tutorial on creating dialogs. Added the following files
+	<ol>
+		<li>dialogs/confirmation.html</li>
+		<li>dialogs/delete.html</li>
+	</ol>
+
++ JavaScript/lessons-from_jquery-mobile/navigation-practice/ : Finished the tutorial on navigating through pages. Contains the following files
+	<ol>
+		<li>navigation-practice/index.html</li>
+		<li>navigation-practice/second.html</li>
+	</ol>
+
 __2013-29-03__ Juan Gallardo <j@jgallardo.me> <br />
 Read the entire book Applied jQuery but I was familiar with the concepts, so I only followed along to the tutorials listed below. 
 + JavaScript/lessons-from_applied-jquery/hello-santa-monica.html : Finished the tutorial for hello, world but I changed it to "Hello, Santa Monica!"
