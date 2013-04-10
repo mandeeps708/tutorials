@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E614E1F160378BE00D1B1FA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E614E1E160378BE00D1B1FA /* UIKit.framework */; };
+		6E614E21160378BE00D1B1FA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E614E20160378BE00D1B1FA /* Foundation.framework */; };
+		6E614E23160378BE00D1B1FA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E614E22160378BE00D1B1FA /* CoreGraphics.framework */; };
+		6E614E29160378BE00D1B1FA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6E614E27160378BE00D1B1FA /* InfoPlist.strings */; };
+		6E614E2B160378BE00D1B1FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E614E2A160378BE00D1B1FA /* main.m */; };
+		6E614E2F160378BE00D1B1FA /* PRPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E614E2E160378BE00D1B1FA /* PRPAppDelegate.m */; };
+		6E614E31160378BE00D1B1FA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E614E30160378BE00D1B1FA /* Default.png */; };
+		6E614E33160378BE00D1B1FA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E614E32160378BE00D1B1FA /* Default@2x.png */; };
+		6E614E35160378BE00D1B1FA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E614E34160378BE00D1B1FA /* Default-568h@2x.png */; };
+		6E614E38160378BE00D1B1FA /* PRPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E614E37160378BE00D1B1FA /* PRPViewController.m */; };
+		6E614E3B160378BE00D1B1FA /* PRPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6E614E39160378BE00D1B1FA /* PRPViewController.xib */; };
+		6E614E47160379CC00D1B1FA /* PRPRecipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E614E46160379CC00D1B1FA /* PRPRecipe.m */; };
+		6E614E6116037EC700D1B1FA /* cookies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6E614E6016037EC700D1B1FA /* cookies.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6E614E1A160378BE00D1B1FA /* Recipes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Recipes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E614E1E160378BE00D1B1FA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6E614E20160378BE00D1B1FA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6E614E22160378BE00D1B1FA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6E614E26160378BE00D1B1FA /* Recipes-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipes-Info.plist"; sourceTree = "<group>"; };
+		6E614E28160378BE00D1B1FA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6E614E2A160378BE00D1B1FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6E614E2C160378BE00D1B1FA /* Recipes-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipes-Prefix.pch"; sourceTree = "<group>"; };
+		6E614E2D160378BE00D1B1FA /* PRPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRPAppDelegate.h; sourceTree = "<group>"; };
+		6E614E2E160378BE00D1B1FA /* PRPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPAppDelegate.m; sourceTree = "<group>"; };
+		6E614E30160378BE00D1B1FA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6E614E32160378BE00D1B1FA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6E614E34160378BE00D1B1FA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6E614E36160378BE00D1B1FA /* PRPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRPViewController.h; sourceTree = "<group>"; };
+		6E614E37160378BE00D1B1FA /* PRPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRPViewController.m; sourceTree = "<group>"; };
+		6E614E3A160378BE00D1B1FA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PRPViewController.xib; sourceTree = "<group>"; };
+		6E614E45160379CC00D1B1FA /* PRPRecipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPRecipe.h; sourceTree = "<group>"; };
+		6E614E46160379CC00D1B1FA /* PRPRecipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPRecipe.m; sourceTree = "<group>"; };
+		6E614E6016037EC700D1B1FA /* cookies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cookies.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E614E17160378BE00D1B1FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E614E1F160378BE00D1B1FA /* UIKit.framework in Frameworks */,
+				6E614E21160378BE00D1B1FA /* Foundation.framework in Frameworks */,
+				6E614E23160378BE00D1B1FA /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E614E0F160378BE00D1B1FA = {
+			isa = PBXGroup;
+			children = (
+				6E614E24160378BE00D1B1FA /* Recipes */,
+				6E614E1D160378BE00D1B1FA /* Frameworks */,
+				6E614E1B160378BE00D1B1FA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E614E1B160378BE00D1B1FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E614E1A160378BE00D1B1FA /* Recipes.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E614E1D160378BE00D1B1FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E614E1E160378BE00D1B1FA /* UIKit.framework */,
+				6E614E20160378BE00D1B1FA /* Foundation.framework */,
+				6E614E22160378BE00D1B1FA /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6E614E24160378BE00D1B1FA /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				6E614E6016037EC700D1B1FA /* cookies.jpg */,
+				6E614E2D160378BE00D1B1FA /* PRPAppDelegate.h */,
+				6E614E2E160378BE00D1B1FA /* PRPAppDelegate.m */,
+				6E614E36160378BE00D1B1FA /* PRPViewController.h */,
+				6E614E37160378BE00D1B1FA /* PRPViewController.m */,
+				6E614E39160378BE00D1B1FA /* PRPViewController.xib */,
+				6E614E45160379CC00D1B1FA /* PRPRecipe.h */,
+				6E614E46160379CC00D1B1FA /* PRPRecipe.m */,
+				6E614E25160378BE00D1B1FA /* Supporting Files */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		6E614E25160378BE00D1B1FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6E614E26160378BE00D1B1FA /* Recipes-Info.plist */,
+				6E614E27160378BE00D1B1FA /* InfoPlist.strings */,
+				6E614E2A160378BE00D1B1FA /* main.m */,
+				6E614E2C160378BE00D1B1FA /* Recipes-Prefix.pch */,
+				6E614E30160378BE00D1B1FA /* Default.png */,
+				6E614E32160378BE00D1B1FA /* Default@2x.png */,
+				6E614E34160378BE00D1B1FA /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E614E19160378BE00D1B1FA /* Recipes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E614E3E160378BE00D1B1FA /* Build configuration list for PBXNativeTarget "Recipes" */;
+			buildPhases = (
+				6E614E16160378BE00D1B1FA /* Sources */,
+				6E614E17160378BE00D1B1FA /* Frameworks */,
+				6E614E18160378BE00D1B1FA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Recipes;
+			productName = Recipes;
+			productReference = 6E614E1A160378BE00D1B1FA /* Recipes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E614E11160378BE00D1B1FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PRP;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Pragmatic Programmers LLC";
+			};
+			buildConfigurationList = 6E614E14160378BE00D1B1FA /* Build configuration list for PBXProject "Recipes" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6E614E0F160378BE00D1B1FA;
+			productRefGroup = 6E614E1B160378BE00D1B1FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E614E19160378BE00D1B1FA /* Recipes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E614E18160378BE00D1B1FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E614E29160378BE00D1B1FA /* InfoPlist.strings in Resources */,
+				6E614E31160378BE00D1B1FA /* Default.png in Resources */,
+				6E614E33160378BE00D1B1FA /* Default@2x.png in Resources */,
+				6E614E35160378BE00D1B1FA /* Default-568h@2x.png in Resources */,
+				6E614E3B160378BE00D1B1FA /* PRPViewController.xib in Resources */,
+				6E614E6116037EC700D1B1FA /* cookies.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E614E16160378BE00D1B1FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E614E2B160378BE00D1B1FA /* main.m in Sources */,
+				6E614E2F160378BE00D1B1FA /* PRPAppDelegate.m in Sources */,
+				6E614E38160378BE00D1B1FA /* PRPViewController.m in Sources */,
+				6E614E47160379CC00D1B1FA /* PRPRecipe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6E614E27160378BE00D1B1FA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E614E28160378BE00D1B1FA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6E614E39160378BE00D1B1FA /* PRPViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6E614E3A160378BE00D1B1FA /* en */,
+			);
+			name = PRPViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6E614E3C160378BE00D1B1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6E614E3D160378BE00D1B1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E614E3F160378BE00D1B1FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipes/Recipes-Prefix.pch";
+				INFOPLIST_FILE = "Recipes/Recipes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6E614E40160378BE00D1B1FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipes/Recipes-Prefix.pch";
+				INFOPLIST_FILE = "Recipes/Recipes-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E614E14160378BE00D1B1FA /* Build configuration list for PBXProject "Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E614E3C160378BE00D1B1FA /* Debug */,
+				6E614E3D160378BE00D1B1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E614E3E160378BE00D1B1FA /* Build configuration list for PBXNativeTarget "Recipes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E614E3F160378BE00D1B1FA /* Debug */,
+				6E614E40160378BE00D1B1FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6E614E11160378BE00D1B1FA /* Project object */;
+}

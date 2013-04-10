@@ -9,6 +9,7 @@ Made to practice programming concepts. Various tutorials were completed to solic
 SUBJECTS COVERED
 ------------------
 * JavaScript
+* Objective-C
 * Ruby
 
 CONTRIBUTOR
@@ -27,6 +28,10 @@ Viewed March. 22, 2013 from http://net.tutsplus.com/tutorials/javascript-ajax/no
 + Blanchard, J. (2012). Applied jQuery: Develop and Design. Berkeley: Peachpit Press.
 + Firtman, M. (2012). jQuery Mobile: Up and Running. Sebastopol: O'Reilly.
 + Thau, D. (2000). The Book of JavaScript. San Francisco: No Starch Press. 
+
+__Objective-C__
++ Feiler, J. (2012). Teach Yourself Objective-C. Indianapolis: SAMS. 
++ Adamson, C. and Dudney, C. (2012). iOS SDK Development. Dallas: The Pragmatic Programmers. 
 
 __PhoneGap__ 
 + "PhoneGap From Scratch: Introduction"<br />
