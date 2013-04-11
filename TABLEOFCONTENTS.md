@@ -62,4 +62,5 @@ __Practice files__
 + watermark.rb - Script to watermark images
 + bwPhoto.rb - Script converts images to black and white
 + createGallery.rb - Script that creates a gallery for a set of images
++ sudoku.rb - Script for sudoku
 

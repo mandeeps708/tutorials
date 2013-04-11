@@ -4,6 +4,7 @@ HISTORY
 __2013-10-04__
 + Created a folder for the tutorials from the book "iOS SDK Development". the path is objective-c/lessons-from_ios-sdk-development
 + objective-c/lessons-from_ios-sdk-development : Copied /ViewsAndControllers/ into this folder. They are the starting points for chapter 4 of iOS SDK Development.  
++ ruby/sudoku.rb : Finished the tutorial on this script for sudoku.
 
 __2013-09-04__ Juan Gallardo <j@jgallardo.me> <br />
 + objective-c/lessons-from_teach-yourself-objective-c/ : Started the file to follow along to the tutorials listed in the book. 
