@@ -13,6 +13,7 @@
 //  Created by Bill Dudney on 6/29/11.
 //  Copyright 2011 Gala Factory Software LLC. All rights reserved.
 //
+//  Modified by Juan Gallardo during training
 
 #import "PRPRecipe.h"
 

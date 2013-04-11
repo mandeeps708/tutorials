@@ -13,6 +13,7 @@
 //  Created by Bill Dudney on 9/14/12.
 //  Copyright (c) 2012 Pragmatic Programmers LLC. All rights reserved.
 //
+//  Modified by Juan Gallardo during training
 
 #import <UIKit/UIKit.h>
 
