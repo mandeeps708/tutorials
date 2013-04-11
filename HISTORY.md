@@ -1,9 +1,14 @@
 HISTORY
 ==================
 
+<<<<<<< HEAD
 __2013-10-04__
 + Created a folder for the tutorials from the book "iOS SDK Development". the path is objective-c/lessons-from_ios-sdk-development
 + objective-c/lessons-from_ios-sdk-development : Copied /ViewsAndControllers/ into this folder. They are the starting points for chapter 4 of iOS SDK Development.  
+=======
+__2013-09-04__ Juan Gallardo <j@jgallardo.me> <br />
++ objective-c/lessons-from_teach-yourself-objective-c/ : Started the file to follow along to the tutorials listed in the book. 
+>>>>>>> checkpoint
 
 __2013-30-03__ Juan Gallardo <j@jgallardo.me> <br />
 Began to code along through the book on jQuery mobile. 
