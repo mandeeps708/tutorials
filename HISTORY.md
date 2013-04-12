@@ -1,6 +1,9 @@
 HISTORY
 ==================
 
+__2013-11-04__
++ Began tutorials (previously read) from the book "Objective-C Programming" in order to refresh on the fundamentals. Finished up to chapter 19.
+
 __2013-10-04__
 + Created a folder for the tutorials from the book "iOS SDK Development". the path is objective-c/lessons-from_ios-sdk-development
 + objective-c/lessons-from_ios-sdk-development : Copied /ViewsAndControllers/ into this folder. They are the starting points for chapter 4 of iOS SDK Development.  

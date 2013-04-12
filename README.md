@@ -36,11 +36,12 @@ Viewed March. 22, 2013 from http://net.tutsplus.com/tutorials/javascript-ajax/no
 __Objective-C__
 + Feiler, J. (2012). Teach Yourself Objective-C. Indianapolis: SAMS. 
 + Adamson, C. and Dudney, C. (2012). iOS SDK Development. Dallas: The Pragmatic Programmers. 
++ Hillegass, A. (2011). Objective-C Programming. Atlanta: Big Nerd Ranch.
 
 __PhoneGap__ 
 + "PhoneGap From Scratch: Introduction"<br />
 Viewed Dec. 17, 2012 from http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch/
-+ Munro, J. (2012). Programming PhoneGap. Cambridge : O'Reilly.
++ Munro, J. (2012). Programming PhoneGap. Cambridge: O'Reilly.
 
 __Ruby__
 + "Refinery CMS Basics"<br />

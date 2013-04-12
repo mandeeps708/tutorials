@@ -11,6 +11,13 @@ __Practice files__
 + lessons-from_applied-jquery
 + lessons-from_jquery-mobile
 
+
+__Objective-C__
++ lessons-from_ios-sdk-development
++ lessons-from_teach-yourself-objective-c
++ lessons-from_objective-c-programming
+
+
 PhoneGap
 ------------------
 __Practice Projects__

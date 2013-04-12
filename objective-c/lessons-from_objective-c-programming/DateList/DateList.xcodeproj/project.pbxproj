@@ -1,0 +1,247 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		867AAF8A171773EE00EE7ED7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 867AAF89171773EE00EE7ED7 /* Foundation.framework */; };
+		867AAF8D171773EE00EE7ED7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 867AAF8C171773EE00EE7ED7 /* main.m */; };
+		867AAF91171773EE00EE7ED7 /* DateList.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 867AAF90171773EE00EE7ED7 /* DateList.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		867AAF84171773EE00EE7ED7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				867AAF91171773EE00EE7ED7 /* DateList.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		867AAF86171773EE00EE7ED7 /* DateList */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DateList; sourceTree = BUILT_PRODUCTS_DIR; };
+		867AAF89171773EE00EE7ED7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		867AAF8C171773EE00EE7ED7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		867AAF8F171773EE00EE7ED7 /* DateList-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DateList-Prefix.pch"; sourceTree = "<group>"; };
+		867AAF90171773EE00EE7ED7 /* DateList.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DateList.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		867AAF83171773EE00EE7ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867AAF8A171773EE00EE7ED7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		867AAF7D171773EE00EE7ED7 = {
+			isa = PBXGroup;
+			children = (
+				867AAF8B171773EE00EE7ED7 /* DateList */,
+				867AAF88171773EE00EE7ED7 /* Frameworks */,
+				867AAF87171773EE00EE7ED7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		867AAF87171773EE00EE7ED7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				867AAF86171773EE00EE7ED7 /* DateList */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		867AAF88171773EE00EE7ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				867AAF89171773EE00EE7ED7 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		867AAF8B171773EE00EE7ED7 /* DateList */ = {
+			isa = PBXGroup;
+			children = (
+				867AAF8C171773EE00EE7ED7 /* main.m */,
+				867AAF90171773EE00EE7ED7 /* DateList.1 */,
+				867AAF8E171773EE00EE7ED7 /* Supporting Files */,
+			);
+			path = DateList;
+			sourceTree = "<group>";
+		};
+		867AAF8E171773EE00EE7ED7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				867AAF8F171773EE00EE7ED7 /* DateList-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		867AAF85171773EE00EE7ED7 /* DateList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867AAF94171773EE00EE7ED7 /* Build configuration list for PBXNativeTarget "DateList" */;
+			buildPhases = (
+				867AAF82171773EE00EE7ED7 /* Sources */,
+				867AAF83171773EE00EE7ED7 /* Frameworks */,
+				867AAF84171773EE00EE7ED7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DateList;
+			productName = DateList;
+			productReference = 867AAF86171773EE00EE7ED7 /* DateList */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		867AAF7E171773EE00EE7ED7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = juan.gallardo;
+			};
+			buildConfigurationList = 867AAF81171773EE00EE7ED7 /* Build configuration list for PBXProject "DateList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 867AAF7D171773EE00EE7ED7;
+			productRefGroup = 867AAF87171773EE00EE7ED7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				867AAF85171773EE00EE7ED7 /* DateList */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		867AAF82171773EE00EE7ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				867AAF8D171773EE00EE7ED7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		867AAF92171773EE00EE7ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		867AAF93171773EE00EE7ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		867AAF95171773EE00EE7ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateList/DateList-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		867AAF96171773EE00EE7ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DateList/DateList-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		867AAF81171773EE00EE7ED7 /* Build configuration list for PBXProject "DateList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867AAF92171773EE00EE7ED7 /* Debug */,
+				867AAF93171773EE00EE7ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		867AAF94171773EE00EE7ED7 /* Build configuration list for PBXNativeTarget "DateList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				867AAF95171773EE00EE7ED7 /* Debug */,
+				867AAF96171773EE00EE7ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 867AAF7E171773EE00EE7ED7 /* Project object */;
+}
