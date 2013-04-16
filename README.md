@@ -10,6 +10,7 @@ Made to practice programming concepts. Various tutorials were completed to solic
 
 SUBJECTS COVERED
 ------------------
+* HMTL5
 * JavaScript
 * Objective-C
 * PhoneGap
@@ -24,6 +25,10 @@ Juan Gallardo j@jgallardo.me
 ATTRIBUTION
 ------------------
 The following books, magazines, and websites were used to complete tutorials listed here:
+
+__HMTL5__
++ David, M. (2012). HTML5 Mobile Websites. Oxford: Focal Press.
++ Duckett, J. (2011). HTML & CSS : Design & Build Websites. Indianapolis: Wiley. 
 
 __JavaScript__
 + "Node.js for Beginners"<br />
