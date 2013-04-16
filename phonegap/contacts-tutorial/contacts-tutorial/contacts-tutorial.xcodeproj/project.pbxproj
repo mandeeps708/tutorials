@@ -22,7 +22,7 @@
 		DEF6C3611688021600310397 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF6C3601688021600310397 /* CoreMedia.framework */; };
 		DEF6C3671688021600310397 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF6C3651688021600310397 /* InfoPlist.strings */; };
 		DEF6C3691688021600310397 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF6C3681688021600310397 /* main.m */; };
-		DEF6C36C1688021600310397 /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF6C36B1688021600310397 /* Cordova.framework */; };
+		DEF6C36C1688021600310397 /* Cordova.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEF6C36B1688021600310397 /* Cordova.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		DEF6C3711688021600310397 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF6C36F1688021600310397 /* Localizable.strings */; };
 		DEF6C3751688021600310397 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF6C3731688021600310397 /* Localizable.strings */; };
 		DEF6C3791688021600310397 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEF6C3771688021600310397 /* Localizable.strings */; };
@@ -546,6 +546,7 @@
 				DEF6C39F1688021600310397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

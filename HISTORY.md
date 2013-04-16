@@ -1,6 +1,14 @@
 HISTORY
 ==================
 
+__2013-15-04__
++ phonegap/contacts-tutorial/ .... /notes.html : finished tutorial. 
++ phonegap/contacts-tutorial/ .... /notes.js : finished tutorial. 
++ phonegap/contacts-tutorial/ .... /notify.html : finished tutorial. 
++ phonegap/contacts-tutorial/ .... /notify.js : finished tutorial. 
++ phonegap/contacts-tutorial/ .... /plugin.html : finished tutorial. 
++ phonegap/contacts-tutorial/ .... /plugin.js : finished tutorial. 
+
 __2013-11-04__
 + Began tutorials (previously read) from the book "Objective-C Programming" in order to refresh on the fundamentals. Finished up to chapter 19.
 
