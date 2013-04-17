@@ -1,6 +1,9 @@
 HISTORY
 ==================
 
+__2013-16-04__
++ JavaScript/geotweets
+
 __2013-15-04__
 + phonegap/contacts-tutorial/ .... /notes.html : finished tutorial. 
 + phonegap/contacts-tutorial/ .... /notes.js : finished tutorial. 
@@ -22,7 +25,7 @@ __2013-09-04__ Juan Gallardo <j@jgallardo.me> <br />
 
 __2013-30-03__ Juan Gallardo <j@jgallardo.me> <br />
 Began to code along through the book on jQuery mobile. 
-+ JavaScript/lessons-from_jquery-mobile/template.html: Created this very basic template.
++ JavaScript/lessons-from_jquery-mobile/template.html : Created this very basic template.
 + JavaScript/lessons-from_jquery-mobile/page-template.html : Created this basic template that includes a header and footer. 
 + JavaScript/lessons-from_jquery-mobile/dialogs/ : Began tutorial the tutorial on creating dialogs. Added the following files
 	<ol>

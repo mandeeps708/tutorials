@@ -5,6 +5,7 @@ JavaScript
 ------------------
 __Practice Projects__
 + Basic Contact Manager in Angular.js
++ geotweets - displays a stream of tweets from your location
 
 __Practice files__
 + lessons-from_the-book-of-javascript
