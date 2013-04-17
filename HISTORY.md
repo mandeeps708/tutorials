@@ -2,7 +2,7 @@ HISTORY
 ==================
 
 __2013-16-04__
-+ JavaScript/geotweets
++ JavaScript/geotweets : 
 
 __2013-15-04__
 + phonegap/contacts-tutorial/ .... /notes.html : finished tutorial. 
