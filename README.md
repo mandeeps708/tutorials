@@ -39,9 +39,10 @@ Viewed March. 22, 2013 from http://net.tutsplus.com/tutorials/javascript-ajax/no
 + Thau, D. (2000). The Book of JavaScript. San Francisco: No Starch Press. 
 
 __Objective-C__
-+ Feiler, J. (2012). Teach Yourself Objective-C. Indianapolis: SAMS. 
 + Adamson, C. and Dudney, C. (2012). iOS SDK Development. Dallas: The Pragmatic Programmers. 
++ Feiler, J. (2012). Teach Yourself Objective-C. Indianapolis: SAMS. 
 + Hillegass, A. (2011). Objective-C Programming. Atlanta: Big Nerd Ranch.
++ Lewis, R., McCarthy, Y., & Moraco, S.M. (2012). Beginning iOS Storyboarding Using Xcode. New York: Apress.
 
 __PhoneGap__ 
 + "PhoneGap From Scratch: Introduction"<br />
