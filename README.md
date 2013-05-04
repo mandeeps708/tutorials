@@ -29,6 +29,7 @@ The following books, magazines, and websites were used to complete tutorials lis
 __HMTL5__
 + David, M. (2012). HTML5 Mobile Websites. Oxford: Focal Press.
 + Duckett, J. (2011). HTML & CSS : Design & Build Websites. Indianapolis: Wiley. 
++ Geary, D. (2012). HTML5 Canvas. Upper Saddle River: Prentice Hall.
 
 __JavaScript__
 + "Node.js for Beginners"<br />
