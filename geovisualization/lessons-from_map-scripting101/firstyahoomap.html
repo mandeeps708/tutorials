@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Google Map</title>
+	<script src="http://api.maps.yahoo.com/ajaxymap?v=3.8appid=ELwIhCTIkY2czE22nJsNr8zD9Gxmzd8poGd.vZsJFt1hhxPg8tToV3cuMgQ.2ksK"></script>
+	
+	<style type="text/css">
+		div#mymap {
+			width: 400px;
+			height: 350px;
+		}
+	</style>
+	
+	<script type="text/javascript">
+		function create_map() {
+			var map = new Ymap(document.getElementById('mymap'));
+			map.drawZoomAndCenter(new YGeoPoint(37.7740486, -122.4101883), 3);
+		}
+	</script>
+</head>
+<body onload="create_map()">
+	<div id="mymap"></div>
+</body>
+</html>

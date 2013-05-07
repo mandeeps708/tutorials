@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basic Google Map</title>
+	<script src="http://maps.google.com/maps/api/js?sensor=false" type="text/javascript"></script>
+	
+	<style type="text/css">
+		div#mymap {
+			width: 400px;
+			height: 350px;
+		}
+	</style>
+	
+	<script type="text/javascript">
+		function create_map() {
+			var opt = { center: new google.map.LatLng(37.7740486, -122.4101883),
+				zoom: 15, mapTypeId: google.maps.MapTypeId.ROADMAP};
+			var map = new google.maps.Map(document.getElementsById("mapdiv"), opt);
+		}
+	</script>
+</head>
+<body onload="create_map()">
+	<div id="mymap"></div>
+</body>
+</html>

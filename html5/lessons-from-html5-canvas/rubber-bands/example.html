@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Drawing Lines with Rubber Bands</title>
+	<style>
+		body {
+			background: #eeeeee;
+		}
+
+		#controls {
+			position: absolute;
+			left: 25px;
+			top: 25px;
+		}
+		#canvas {
+			background: #ffffff;
+		}
+
+	</style>
+</head>
+<body>
+	<div id='radios'>
+		<input type='radio'
+			id='repeatRadio' name='patternRadio' checked/>repeat
+		<input type='radio'
+			id='repeatXRAdio' name='patternRadio'/>repeat-x
+		<input type='radio'
+			id='repeatYRadio' name='patternRadio'/>repeat-y
+		<input type='radio'
+			id='noRepeatRadio' name='patternRadio'/>no repeat			
+	</div>
+
+	<canvas id='canvas' width='450' height='275'>
+		Canvas not supported
+	</canvas>
+	<script src='example.js'></script>
+</body>
+</html>

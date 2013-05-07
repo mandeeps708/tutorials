@@ -8,13 +8,17 @@ PURPOSE
 Made to practice programming concepts. Various tutorials were completed to solicit further feedback from code reviews. 
 
 
-SUBJECTS COVERED
+LANGUAGES COVERED
 ------------------
 * HMTL5
 * JavaScript
 * Objective-C
 * PhoneGap
 * Ruby
+
+TOPICS COVERED
+------------------
+* GeoVisualization
 
 
 CONTRIBUTOR
@@ -38,6 +42,9 @@ Viewed March. 22, 2013 from http://net.tutsplus.com/tutorials/javascript-ajax/no
 + Blanchard, J. (2012). Applied jQuery: Develop and Design. Berkeley: Peachpit Press.
 + Firtman, M. (2012). jQuery Mobile: Up and Running. Sebastopol: O'Reilly.
 + Thau, D. (2000). The Book of JavaScript. San Francisco: No Starch Press. 
+
+__GeoVisualization__
++ Duvander, A. (2010). Map Scripting 101. San Francisco: No Starch Press.
 
 __Objective-C__
 + Adamson, C. and Dudney, C. (2012). iOS SDK Development. Dallas: The Pragmatic Programmers. 
