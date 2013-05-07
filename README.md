@@ -14,6 +14,7 @@ LANGUAGES COVERED
 * JavaScript
 * Objective-C
 * PhoneGap
+* Python
 * Ruby
 
 TOPICS COVERED
