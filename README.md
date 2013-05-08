@@ -38,7 +38,7 @@ __HMTL5__
 
 __JavaScript__
 + "Node.js for Beginners"<br />
-Viewed March. 22, 2013 from http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/
+Viewed March. 22, 2013 from [http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/](http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/)
 + Ford, B. (November 2012). /JavaScript/Write an app in AngularJS. .net. Issue 234. Pg. 106 - 109.
 + Blanchard, J. (2012). Applied jQuery: Develop and Design. Berkeley: Peachpit Press.
 + Firtman, M. (2012). jQuery Mobile: Up and Running. Sebastopol: O'Reilly.
@@ -55,16 +55,16 @@ __Objective-C__
 
 __PhoneGap__ 
 + "PhoneGap From Scratch: Introduction"<br />
-Viewed Dec. 17, 2012 from http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch/
+Viewed Dec. 17, 2012 from [http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch/](http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch/)
 + Munro, J. (2012). Programming PhoneGap. Cambridge: O'Reilly.
 
 __Python__
 + "Python 3 Essential Training"<br />
-Viewed May 7, 2013 from (http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html)[http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html]
+Viewed May 7, 2013 from [http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html](http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html)
 + "Writing your first Django app, part 1"<br />
-Viewed May 7, 2013 from (https://docs.djangoproject.com/en/1.5/intro/tutorial01/)[https://docs.djangoproject.com/en/1.5/intro/tutorial01/]
+Viewed May 7, 2013 from [https://docs.djangoproject.com/en/1.5/intro/tutorial01/](https://docs.djangoproject.com/en/1.5/intro/tutorial01/)
 
 __Ruby__
 + "Refinery CMS Basics"<br />
-Viewed Dec 16. 2012 from http://railscasts.com/episodes/332-refinery-cms-basics
+Viewed Dec 16. 2012 from [http://railscasts.com/episodes/332-refinery-cms-basics](http://railscasts.com/episodes/332-refinery-cms-basics)
 + Pugh, S. (2009). Wicked Cool Ruby Scripts. San Francisco: No Starch Press. 
