@@ -1,6 +1,11 @@
 HISTORY
 ==================
 
+__2013-07-05__
++ Began the course from Lynda
++ Finished the first tutorial from the Django tutorials site
+
+
 __2013-16-04__
 + JavaScript/geotweets : 
 

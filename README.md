@@ -58,6 +58,12 @@ __PhoneGap__
 Viewed Dec. 17, 2012 from http://mobile.tutsplus.com/tutorials/phonegap/phonegap-from-scratch/
 + Munro, J. (2012). Programming PhoneGap. Cambridge: O'Reilly.
 
+__Python__
++ "Python 3 Essential Training"<br />
+Viewed May 7, 2013 from (http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html)[http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html]
++ "Writing your first Django app, part 1"<br />
+Viewed May 7, 2013 from (https://docs.djangoproject.com/en/1.5/intro/tutorial01/)[https://docs.djangoproject.com/en/1.5/intro/tutorial01/]
+
 __Ruby__
 + "Refinery CMS Basics"<br />
 Viewed Dec 16. 2012 from http://railscasts.com/episodes/332-refinery-cms-basics
