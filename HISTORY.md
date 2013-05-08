@@ -1,6 +1,9 @@
 HISTORY
 ==================
 
+__2013-08-05__
++ Finished tutorial from Lynda on general syntax in Python
+
 __2013-07-05__
 + Began the course from Lynda
 + Finished the first tutorial from the Django tutorials site
