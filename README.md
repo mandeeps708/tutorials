@@ -13,13 +13,14 @@ LANGUAGES COVERED
 * HMTL5
 * JavaScript
 * Objective-C
-* PhoneGap
 * Python
 * Ruby
 
 TOPICS COVERED
 ------------------
+* Databases
 * GeoVisualization
+* PhoneGap
 
 
 CONTRIBUTOR
@@ -30,6 +31,10 @@ Juan Gallardo j@jgallardo.me
 ATTRIBUTION
 ------------------
 The following books, magazines, and websites were used to complete tutorials listed here:
+
+__Databases__
++ "Foundations of Programming: Databases"<br />
+Viewed May. 14, 2013 from [http://www.lynda.com/Programming-tutorials/Foundations-Programming-Databases/112585-2.html](http://www.lynda.com/Programming-tutorials/Foundations-Programming-Databases/112585-2.html)
 
 __HMTL5__
 + David, M. (2012). HTML5 Mobile Websites. Oxford: Focal Press.
