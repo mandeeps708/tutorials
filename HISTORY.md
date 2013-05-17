@@ -1,5 +1,7 @@
 HISTORY
 ==================
+__2013-16-05__
++ Finished course from Lynda on JSON
 
 __2013-08-05__
 + Finished tutorial from Lynda on general syntax in Python

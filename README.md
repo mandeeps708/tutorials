@@ -42,6 +42,8 @@ __HMTL5__
 + Geary, D. (2012). HTML5 Canvas. Upper Saddle River: Prentice Hall.
 
 __JavaScript__
++ "JavaScript and JSON"<br />
+Viewed May. 15, 2013 from [http://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html](http://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html)
 + "Node.js for Beginners"<br />
 Viewed March. 22, 2013 from [http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/](http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/)
 + Ford, B. (November 2012). /JavaScript/Write an app in AngularJS. .net. Issue 234. Pg. 106 - 109.
