@@ -42,6 +42,9 @@ __HMTL5__
 + Geary, D. (2012). HTML5 Canvas. Upper Saddle River: Prentice Hall.
 
 __JavaScript__
++ "JavaScript and AJAX"<br />
+Viewed May. 16, 2013 from [http://www.lynda.com/tutorial/114900](http://www.lynda.com/tutorial/114900)
+
 + "JavaScript and JSON"<br />
 Viewed May. 15, 2013 from [http://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html](http://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html)
 + "Node.js for Beginners"<br />
