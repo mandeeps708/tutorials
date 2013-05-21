@@ -30,7 +30,7 @@ Juan Gallardo j@jgallardo.me
 
 ATTRIBUTION
 ------------------
-The following books, magazines, and websites were used to complete tutorials listed here:
+The following books, magazines, and websites were used to either follow along to or to serve as a foundation for projects contained here:
 
 __Databases__
 + "Foundations of Programming: Databases"<br />
