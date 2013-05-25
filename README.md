@@ -69,6 +69,7 @@ Viewed Dec. 17, 2012 from [http://mobile.tutsplus.com/tutorials/phonegap/phonega
 + Munro, J. (2012). Programming PhoneGap. Cambridge: O'Reilly.
 
 __Python__
++ Harbour, J. (2012). More Python Programming. Boston: Harbour.
 + "Python 3 Essential Training"<br />
 Viewed May 7, 2013 from [http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html](http://www.lynda.com/Python-3-tutorials/essential-training/62226-2.html)
 + "Writing your first Django app, part 1"<br />
