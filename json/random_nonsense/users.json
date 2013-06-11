@@ -1,0 +1,17 @@
+{ "users": [
+  {
+    "name":"joe",
+    "email":"joe@joe.com",
+    "password":"Password1",
+    "phone": 310999999,
+    "address": "245 S. Buckinghame Lane"
+  },
+  {
+    "name":"jerry",
+    "email":"jerry@jerry.com",
+    "password":"Password2",
+    "phone": 714999999,
+    "address": null,
+  }
+]}
+

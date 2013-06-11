@@ -1,0 +1,27 @@
+<h1>Products</h1>
+
+<div id="products" data-json-url="<%= products_url(:format => :json) %>">
+<% @products.each do |product| %>
+	<div class="product">
+		<h2><%= link_to product.name, product %></h2>
+		<div class="details">
+			<%= number_to_currency(product.price) %>
+			<% if product.released_at %>
+			| Released <%= product.released_at.strftime("%B %e, %y") %>
+			<% end %>
+		</div>
+	</div>
+<% end %>
+</div>
+
+<script type="text/html" id="product_template">
+	<div class="product">
+		<h2><a href="/products/{{id}}">{{name}}</a></h2>
+		<div class="details">
+			{{price}}
+			{{#released_at}}
+				| Released {{released_at}}
+			{{/released_at}}
+		</div>
+	</div>
+</script>	
