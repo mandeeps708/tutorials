@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-YatumblrPractice::Application.config.secret_token = 'e4a430d6a1e1f56702ef834b687b7803f986fc50ba874007ad5201213cdba4c9c4a27f0b3f9251129724be76606273cb0bc228107bf676784c536cf59ddaf079'
+Scaryroutes::Application.config.secret_token = '8f3f1aabe91a00dea1a03eab727c5a329923a9293b7cd6e308648795c8d5fc58e79468caa4206a196cdbbed2838180e148b273366e50069eb012871d95dd2007'
