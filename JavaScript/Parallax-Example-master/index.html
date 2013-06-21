@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Parallax Scrolling</title>
+<link href='http://fonts.googleapis.com/css?family=Convergence' rel='stylesheet' type='text/css'>
+<link href="parallax.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.0/jquery.min.js"></script>
+<script type="text/javascript" src="scripts/parallax.js"></script>
+<script type="text/javascript" src="scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="scripts/jquery.inview.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$('#nav').localScroll();
+})
+</script>
+</head>
+
+<body>
+
+<ul id="nav">
+	<li><a href="#one" title="Next Section"><img src="images/spot.png" alt="Link" /></a></li>
+    <li><a href="#two" title="Next Section"><img src="images/spot.png" alt="Link" /></a></li>
+    <li><a href="#three" title="Next Section"><img src="images/spot.png" alt="Link" /></a></li>
+    <li><a href="#four" title="Next Section"><img src="images/spot.png" alt="Link" /></a></li>
+    <li><a href="#five" title="Next Section"><img src="images/spot.png" alt="Link" /></a></li>
+</ul>
+
+<div id="header">
+	<div class="content">
+        <h1>Parallax Scrolling</h1>
+    </div> 
+</div> 
+
+<div id="one">
+	<div class="content">
+    	<div class="left">
+		<h2>Background moves slower</h2>
+        <p>This first section of the site has the parallax effect by allowing the background to move at a slightly slower speed than the actual page content.</p>
+        </div>
+    </div> 
+</div> 
+
+<div id="two">
+	<div class="content"><div class="bg"></div>
+    	<div class="right">
+            <h2>Two div backgrounds</h2>
+            <p>There are two div tags in this section that have background images applied. They are set to move at differing speeds so that the foreground moves at the right speed but the backgrounds move at slower speeds.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
+        </div>
+    </div> 
+    
+</div> 
+
+<div id="three">
+	<div class="content">
+    	<div class="left">
+        	<h2>Background moves slower</h2>
+            <p>This third section is almost the same as the first section of the site and has the parallax effect by allowing the background to move at a slightly slower speed than the actual page content.</p>
+        </div>
+    </div> 
+</div> 
+
+<div id="four">
+	<div class="content">
+    	<div class="left">
+            <h2>Different Backgrounds</h2>
+            <p>A slightly different way of doing it here using multiple CSS backgrounds. This has three layers as oppossed to two in other section giving a feeling of greater depth.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
+        </div>
+    </div> 
+</div> 
+
+<div id="five">
+	<div class="content">
+		<h2>You've reached the end of the page</h2>
+            <p>You've scrolled to the end and you have seen the entire site appear on one page.</p>
+<p>Probably not a good idea to use this for a lot of content otherwise it will be sluggish.</p>
+    </div> 
+</div> 
+
+</body>
+</html>
+
