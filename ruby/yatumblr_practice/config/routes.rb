@@ -6,7 +6,8 @@ YatumblrPractice::Application.routes.draw do
   get "blog/index"
   get "home/index"
 
- root :to => "home#index"
- match "/blog" => "blog#index", :as => :blog
- match "/topics" => "topics#index", :as => :topics
+  match "/topics" => "topics#index", :as => :topics
+  match "/blog" => "blog#index", :as => :blog
+  
+  root :to => "home#index"
 end
