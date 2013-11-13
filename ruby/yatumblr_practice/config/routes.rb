@@ -1,4 +1,7 @@
 YatumblrPractice::Application.routes.draw do
+  
+  get "events/map"
+
   resources :posts
 
   devise_for :admin_users, ActiveAdmin::Devise.config
@@ -10,14 +13,18 @@ YatumblrPractice::Application.routes.draw do
 
   get "info/about"
   get "info/terms"
-  get "info/copyright"
+  get "info/copyleft"
+  get "info/sponsors"
+
+  match "/map" => "events#map", :as => :map
 
   match "/topics" => "topics#index", :as => :topics
   match "/blog" => "blog#index", :as => :blog
 
   match "/about" => "info#about", :as => :about
   match "/terms" => "info#terms", :as => :terms
-  match "/copyright" => "info#copyright", :as => :copyright
+  match "/copyleft" => "info#copyleft", :as => :copyleft
+  match "/sponsors" => "info#sponsors", :as => :sponsors
   
   root :to => "home#index"
 end
