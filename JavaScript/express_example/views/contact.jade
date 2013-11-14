@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  header
+    nav
+      ul
+        li 
+          a(href="/") Home
+        li 
+          a(href="/about") About
+        li 
+          a(href="/contact") Contact
+    section#wrapper!= body
+
+        h1 this is the contact page
+
+        fieldset
+          form
+            input<br />
+            input<br />
+            textarea
+
+        hr
+
+        h3 Address
+        p We are located in an imaginary city 
