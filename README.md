@@ -10,10 +10,10 @@ Made to practice programming concepts. Various tutorials were completed to solic
 
 LANGUAGES COVERED
 ------------------
-* HMTL5
-* JavaScript
-** NodeJS
-** MeteorJS
+- HMTL5
+- JavaScript
+    - NodeJS
+    - MeteorJS
 * Objective-C
 * Python
 * Ruby
