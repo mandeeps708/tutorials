@@ -12,6 +12,8 @@ LANGUAGES COVERED
 ------------------
 * HMTL5
 * JavaScript
+** NodeJS
+** MeteorJS
 * Objective-C
 * Python
 * Ruby
@@ -44,9 +46,10 @@ __HMTL5__
 __JavaScript__
 + "JavaScript and AJAX"<br />
 Viewed May. 16, 2013 from [http://www.lynda.com/tutorial/114900](http://www.lynda.com/tutorial/114900)
-
 + "JavaScript and JSON"<br />
 Viewed May. 15, 2013 from [http://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html](http://www.lynda.com/JavaScript-tutorials/JavaScript-JSON/114901-2.html)
++ "Todo List" built with Meteor<br />
+Source code downloaded on November 15, 2013 from [http://www.meteor.com/examples/todos](http://www.meteor.com/examples/todos). I deployed it to [http://procrastinate.meteor.com](http://procrastinate.meteor.com).
 + "Node.js for Beginners"<br />
 Viewed March. 22, 2013 from [http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/](http://net.tutsplus.com/tutorials/javascript-ajax/node-js-for-beginners/)
 + Ford, B. (November 2012). /JavaScript/Write an app in AngularJS. .net. Issue 234. Pg. 106 - 109.
