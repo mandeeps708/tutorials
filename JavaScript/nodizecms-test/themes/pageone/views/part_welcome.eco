@@ -1,0 +1,55 @@
+<!-- main -->
+    <section id="main">
+
+        <% # Top page article, you need to have declared "welcome_top" article type %>           
+        <%= @ion_articles type:'welcome_top', live:true, => %>
+            <div class="intro-box">                         
+               <h1 data-bind="article.title"><%= @article.title %></h1>
+               <span class="intro" data-bind="article.content"><%- @article.content %></span>
+            </div>
+        <% end %>
+
+        <% # Displaying Slider  %>
+
+        <% # !! Due to asynchronous nature of helpers, the slider code must be embedded within the "ion_medias" helper %>
+
+        <%= @ion_articles type:'welcome_slider', => %>
+            <%= @ion_medias => %>
+                <% if @media.index is 1 : %>
+                <div class="slider-wrapper">
+                    <div id="slider" class="nivoSlider">
+                <% end %>
+                        <img src="<%= @media.path%>" width="383" height="198" alt="" title="#htmlcaption"/>
+                <% if @media.index is @media.count : %>
+                    </div>
+                    <div id="htmlcaption" class="nivo-html-caption">
+                        <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+                    </div>
+                </div>
+                <% end %>
+            <% end %>
+        <% end %>
+
+
+        <% # Displaying all other articles linked to the page (articles with no type defined) %>           
+        <div class="row no-bottom-margin">
+            <% count = 0 %>
+            <%= @ion_articles live:true, => %>                                
+                <% count++ %>
+                <% midclass = if count is 2 then "mid" else "" %>
+                
+                <section class="col <%= midclass %>">
+                    <h2><%= @article.title %></h2>
+
+                    <%- @article.content %>
+                </section>
+            <% end %>
+            <!-- <section class="col mid"> -->
+                
+        </div>
+
+        <a class="back-to-top" href="#main">Back to Top</a>
+
+      </section>
+
+      

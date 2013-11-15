@@ -1,0 +1,20 @@
+<% # Default page template %>
+<% # Can be used for the home page %>
+
+<%- @partial "part_head" %>
+
+<body>
+
+<%- @partial "part_header" %>
+
+<!-- content-wrap -->
+<div class="content-wrap">
+
+    <%- @partial "part_welcome" %>
+
+</div>
+
+<%- @partial "part_footer" %>
+
+</body>
+</html>

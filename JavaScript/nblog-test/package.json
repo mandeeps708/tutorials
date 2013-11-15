@@ -1,0 +1,30 @@
+{
+  "name": "nblog",
+  "version": "1.5.4",
+  "description": "Simple Blog CMS using Express and Mongo",
+  "main": "nblog.js",
+  "dependencies": {
+    "ejs": "~0.8.3",
+    "express": "~3.0.3",
+    "moment": "~1.7.2",
+    "crypto": "~0.0.3",
+    "mongoose": "3.4.x",
+    "logmongo": "0.1.x",
+    "underscore": "1.5.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/astalker/nblog.git"
+  },
+  "keywords": [
+    "Blog",
+    "CMS",
+    "Admin"
+  ],
+  "author": "Alasdair Stalker",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
