@@ -14,15 +14,15 @@ LANGUAGES COVERED
 - JavaScript
     - NodeJS
     - MeteorJS
-* Objective-C
-* Python
-* Ruby
+- Objective-C
+- Python
+- Ruby
 
 TOPICS COVERED
 ------------------
-* Databases
-* GeoVisualization
-* PhoneGap
+- Databases
+- GeoVisualization
+- PhoneGap
 
 
 CONTRIBUTOR
@@ -43,6 +43,9 @@ __HMTL5__
 + Duckett, J. (2011). HTML & CSS : Design & Build Websites. Indianapolis: Wiley. 
 + Geary, D. (2012). HTML5 Canvas. Upper Saddle River: Prentice Hall.
 
+__GeoVisualization__
++ Duvander, A. (2010). Map Scripting 101. San Francisco: No Starch Press.
+
 __JavaScript__
 + "JavaScript and AJAX"<br />
 Viewed May. 16, 2013 from [http://www.lynda.com/tutorial/114900](http://www.lynda.com/tutorial/114900)
@@ -56,9 +59,7 @@ Viewed March. 22, 2013 from [http://net.tutsplus.com/tutorials/javascript-ajax/n
 + Blanchard, J. (2012). Applied jQuery: Develop and Design. Berkeley: Peachpit Press.
 + Firtman, M. (2012). jQuery Mobile: Up and Running. Sebastopol: O'Reilly.
 + Thau, D. (2000). The Book of JavaScript. San Francisco: No Starch Press. 
-
-__GeoVisualization__
-+ Duvander, A. (2010). Map Scripting 101. San Francisco: No Starch Press.
++ York, R. (2009). Beginning JavaScript and CSS Development with jQuery. Indianapolis: Wiley Publishing.
 
 __Objective-C__
 + Adamson, C. and Dudney, C. (2012). iOS SDK Development. Dallas: The Pragmatic Programmers. 
@@ -82,3 +83,5 @@ __Ruby__
 + "Refinery CMS Basics"<br />
 Viewed Dec 16. 2012 from [http://railscasts.com/episodes/332-refinery-cms-basics](http://railscasts.com/episodes/332-refinery-cms-basics)
 + Pugh, S. (2009). Wicked Cool Ruby Scripts. San Francisco: No Starch Press. 
++ Hartl, M. (2011). Ruby on Rails 3 Tutorial. Boston: Addison-Wesley.
+
