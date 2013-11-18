@@ -12,6 +12,8 @@ LANGUAGES COVERED
 ------------------
 - HMTL5
 - JavaScript
+	- AngularJS
+	- EmberJS
     - NodeJS
     - MeteorJS
 - Objective-C
