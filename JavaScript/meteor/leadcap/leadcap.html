@@ -1,0 +1,22 @@
+<head>
+  <title>leadcap</title>
+</head>
+
+<body>
+  {{> main}}
+  {{> footer}}
+</body>
+
+<template name="main">
+	{{#if showAdmin}}
+		{{> admin}}
+	{{else}}
+		{{> signup}}
+	{{/if}}
+</template>
+
+<template name="footer">
+	<div id="footer">
+		&copy; 2013 by me
+	</div>
+</template>
