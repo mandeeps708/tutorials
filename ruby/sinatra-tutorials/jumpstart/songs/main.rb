@@ -12,6 +12,10 @@ get '/contact' do
   erb :contact
 end
 
-set :public_folder, 'assets'
+not_found do
+ erb :not_found
+end
 
-set :views, 'templates'
+set :public_folder, 'public'
+
+set :views, 'views'
