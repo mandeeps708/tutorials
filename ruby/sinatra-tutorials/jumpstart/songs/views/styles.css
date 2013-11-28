@@ -1,0 +1,12 @@
+$red: #903;
+$black: #444;
+$white: #fff;
+$main-font:  Helvetica, Arial, sans-serif;
+
+body {
+	font-family: $main-font;
+}
+
+h1 {
+	color: $red;
+}
