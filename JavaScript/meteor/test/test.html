@@ -8,15 +8,24 @@
 
 <template name="imageSlider">
   <h1>Cases</h1>
-
 	<div class="casesContainer">
-		<div class="imagesContainer">
-			<img src="http://placehold.it/300x180">
-			<img src="http://placehold.it/300x180">
+
+		<div class="caseTitle">
+    	<span class="caseNumber">Case</span>
+    	<div class="wrap">
+        <span class="caseBack" onclick='mySwipe.prev()'>Back</span>
+        <span class="caseForward" onclick='mySwipe.next()'>Forward</span>
+    	</div>
 		</div>
 
-		<div class="descriptionContainer">
-			<p>Bitters freegan 8-bit organic, viral drinking vinegar deep v Bushwick. Typewriter chambray gluten-free Carles. Freegan deep v ugh, Cosby sweater Neutra small batch salvia flannel semiotics wolf banh mi lo-fi post-ironic. Williamsburg flannel bespoke church-key banh mi chambray. Bitters post-ironic Cosby sweater VHS PBR. Pitchfork seitan vegan, stumptown synth swag aesthetic. PBR&B Pitchfork sriracha master cleanse, post-ironic Truffaut wayfarers flexitarian DIY.</p>
-			<p>Twee wayfarers Thundercats, bicycle rights Pitchfork ethical semiotics yr chia synth scenester lomo mixtape Shoreditch. Food truck hoodie freegan, Williamsburg cliche forage Thundercats pork belly typewriter. Mustache four loko flexitarian Schlitz, 3 wolf moon retro Bushwick gastropub. Sustainable DIY fixie, blog scenester banjo Austin ugh leggings ethical banh mi tattooed next level ennui. McSweeney's leggings squid direct trade. Actually Thundercats biodiesel Banksy messenger bag, whatever kitsch hella lo-fi Vice cardigan blog. Freegan flannel dreamcatcher, fap art party hashtag Tumblr Wes Anderson sartorial authentic distillery Echo Park tote bag gluten-free.</p>
-		</div>
+		<div id='caseSlider' style='max-width:500px;margin:0 auto' class='swipe'>
+		  <div class='swipe-wrap'>
+		    <div><b>0</b></div>
+		    <div><b>1</b></div>
+		    <div><b>2</b></div>
+		    <div><b>3</b></div>
+		    <div><b>4</b></div>
+		    <div><b>5</b></div>
+		  </div>
+		</div>		
 </template>
