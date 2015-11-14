@@ -10,7 +10,7 @@ Made to practice programming concepts. Various tutorials were completed to solic
 
 LANGUAGES COVERED
 ------------------
-- HMTL5
+- HTML5
 - JavaScript
 	- AngularJS
 	- EmberJS
@@ -40,7 +40,7 @@ __Databases__
 + "Foundations of Programming: Databases"<br />
 Viewed May. 14, 2013 from [http://www.lynda.com/Programming-tutorials/Foundations-Programming-Databases/112585-2.html](http://www.lynda.com/Programming-tutorials/Foundations-Programming-Databases/112585-2.html)
 
-__HMTL5__
+__HTML5__
 + David, M. (2012). HTML5 Mobile Websites. Oxford: Focal Press.
 + Duckett, J. (2011). HTML & CSS : Design & Build Websites. Indianapolis: Wiley. 
 + Geary, D. (2012). HTML5 Canvas. Upper Saddle River: Prentice Hall.
